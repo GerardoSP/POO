@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F2315E19-C5B8-40CE-8D02-5024D7F1E382}</ProjectGuid>
+    <ProjectGuid>{92B26441-8F51-4923-B33F-BE0A5BC53745}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>POO</RootNamespace>
-    <AssemblyName>POO</AssemblyName>
+    <RootNamespace>Numeros</RootNamespace>
+    <AssemblyName>Numeros</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,13 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CalculoDeAreas\CalculoDeAreas.csproj">
-      <Project>{c70d747e-4e84-4cd1-8fec-abf635e4133d}</Project>
-      <Name>CalculoDeAreas</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Personas\Personas.csproj">
-      <Project>{9f2294ba-7e86-4203-88a9-eed38eb1eb24}</Project>
-      <Name>Personas</Name>
+    <ProjectReference Include="..\ClaseAreas\ClasePersonas.csproj">
+      <Project>{3636e505-8d0c-4c91-a1f2-f16fb35c588d}</Project>
+      <Name>ClasePersonas</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
